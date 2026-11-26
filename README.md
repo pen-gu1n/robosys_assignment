@@ -6,7 +6,11 @@
 
 - 左上のaから順番に入力
 
-$$\begin{pmatrix} a & b \\ c & d \end{pmatrix}$$
+$$
+\begin{pmatrix}
+a & b \\
+c & d \end{pmatrix}
+$$
 
 - 引数は数字＋スペース
 - '$ ./determinant a b c d'
