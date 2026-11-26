@@ -14,7 +14,6 @@ if count == 4:
 elif count == 9:
 	print(det_3x3(sys.argv[1: ]))
 
-#elif count == 16:
 else:
 	print("error : 引数は4個か9個")
 	sys.exit(1)
