@@ -1,9 +1,11 @@
 # robosys_assignment
 
-## 概要
+## determinantコマンド
+![test](https://github.com/pen-gu1n/robosys_assignment/actions/workflows/det_test.yml/badge.svg)
 - 入力された正方行列の行列式を計算するコマンド
 - ２桁×２桁　３桁×３桁　対応
 
+## 使い方
 - 左上のaから順番に入力
 
 $$
@@ -14,6 +16,14 @@ $$
 
 - 引数は数字＋スペース
 - `$ ./determinant a b c d`
+
+
+## 必要なソフトウェア
+- Python
+  - テスト済みバージョン: 3.10〜3.14
+
+## テスト環境
+- Ubuntu 24.04 LTS
 
 ## ライセンス
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
