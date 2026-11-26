@@ -5,6 +5,12 @@
 - 入力された正方行列の行列式を計算するコマンド
 - 2×2 3×3　対応
 
+## インストール方法
+以下のコマンドを実行し、リポジトリをクローンしてディレクトリに移動してください。
+
+- `$ git clone https://github.com/pen-gu1n/robosys_assignment.git`
+- `$ cd robosys_assignment`
+
 ## 使い方
 - 左上のaから順番に入力
 

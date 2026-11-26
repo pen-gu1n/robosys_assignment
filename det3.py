@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 kenjiro era
+# SPDX-FileCopyrightText: 2026 Kenjiro Era
 # SPDX-License-Identifier: BSD-3-Clause
 
 def det_3x3(nums):
