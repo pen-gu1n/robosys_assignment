@@ -1,0 +1,9 @@
+name: det_test
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+    - name: All det_test
+      run: bash -xv ./det_test.bash
