@@ -3,46 +3,17 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
+from det2 import det_2x2
+from det3 import det_3x3
 
 count = len(sys.argv) - 1
 
 if count == 4:
-	関数：
+	print(det_2x2(sys.argv[1: ]))
 
 elif count == 9:
-	関数：
+	print(det_3x3(sys.argv[1: ]))
 
-elif count == 16:
-	k
-
+#elif count == 16:
 else:
-	print(0)
-
-x1 = 0.0
-y1 = 0.0
-z1 = 0.0
-x2 = 0.0
-y2 = 0.0
-z2 = 0.0
-result = 0.0
-
-x = 0.0
-y = 0.0
-z = 0.0
-x = float(sys.argv[1]) * float(sys.argv[3])
-y = float(sys.argv[2]) * float(sys.argv[4])
-z = x - y 
-
-
-x1 = float(sys.argv[1]) * float(sys.argv[5]) * float(sys.argv[9])
-y1 = float(sys.argv[2]) * float(sys.argv[6]) * float(sys.argv[7])
-z1 = float(sys.argv[3]) * float(sys.argv[4]) * float(sys.argv[8])
-
-x2 = float(sys.argv[3]) * float(sys.argv[5]) * float(sys.argv[7])
-y2 = float(sys.argv[2]) * float(sys.argv[4]) * float(sys.argv[9])
-z2 = float(sys.argv[1]) * float(sys.argv[6]) * float(sys.argv[8])
-
-result = (x1 + y1 + z1) - (x2 + y2 + z2)
-
-print(result)
-
+	print(" ")
