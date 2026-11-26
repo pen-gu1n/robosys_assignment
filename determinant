@@ -17,3 +17,4 @@ elif count == 9:
 #elif count == 16:
 else:
 	print(" ")
+	sys.exit(1)

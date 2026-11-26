@@ -13,7 +13,7 @@ c & d \end{pmatrix}
 $$
 
 - 引数は数字＋スペース
-- '$ ./determinant a b c d'
+- `$ ./determinant a b c d`
 
 ## ライセンス
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
