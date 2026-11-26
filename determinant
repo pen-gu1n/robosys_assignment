@@ -4,6 +4,20 @@
 
 import sys
 
+count = len(sys.argv) - 1
+
+if count == 4:
+	関数：
+
+elif count == 9:
+	関数：
+
+elif count == 16:
+	k
+
+else:
+	print(0)
+
 x1 = 0.0
 y1 = 0.0
 z1 = 0.0
@@ -11,6 +25,14 @@ x2 = 0.0
 y2 = 0.0
 z2 = 0.0
 result = 0.0
+
+x = 0.0
+y = 0.0
+z = 0.0
+x = float(sys.argv[1]) * float(sys.argv[3])
+y = float(sys.argv[2]) * float(sys.argv[4])
+z = x - y 
+
 
 x1 = float(sys.argv[1]) * float(sys.argv[5]) * float(sys.argv[9])
 y1 = float(sys.argv[2]) * float(sys.argv[6]) * float(sys.argv[7])
