@@ -3,7 +3,7 @@
 ## determinantコマンド
 ![test](https://github.com/pen-gu1n/robosys_assignment/actions/workflows/det_test.yml/badge.svg)
 - 入力された正方行列の行列式を計算するコマンド
-- ２桁×２桁　３桁×３桁　対応
+- 2×2 3×3　対応
 
 ## 使い方
 - 左上のaから順番に入力

@@ -16,5 +16,5 @@ elif count == 9:
 
 #elif count == 16:
 else:
-	print(" ")
+	print("error : 引数は4個か9個")
 	sys.exit(1)
